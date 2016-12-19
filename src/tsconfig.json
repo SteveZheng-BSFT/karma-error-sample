@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": "",
+    "baseUrl": "./app",
+    "paths": {
+      "services/*": ["shared/services/*"]
+    },
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
